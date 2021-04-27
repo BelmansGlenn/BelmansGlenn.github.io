@@ -1,8 +1,8 @@
 * {
-    background-image: url(./images/EnterTheJourney.jpg);
     background-size: cover;
     margin: none;
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(226, 215, 63);
 }
 body {
     margin: none;
@@ -61,6 +61,7 @@ i{
     background: rgba(0, 0, 0, 0);
     margin: 10px;
     text-shadow: 5px 5px rgba(0, 0, 0, 0.041);
+    font-size: 80px;
 }
 
 a:hover,i:hover{
