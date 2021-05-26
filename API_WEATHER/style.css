@@ -1,0 +1,58 @@
+
+body{
+    background-image: url(./img/harmen-jelle-van-mourik-IyOOKwXXMUM-unsplash.jpg) ;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+}
+.weatherCard{
+    position: relative;
+    text-align: center;
+    width: 500px;
+    height: fit-content;
+    border: 2px solid black;
+    border-radius: 30px;
+    background: rgba(191, 215, 219, 0.342);
+    bottom: 50px;
+}
+.container{
+   margin-bottom: 26px;
+}
+h1{
+    font-size: 2rem;
+}
+.searchInput{
+    background: white;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+.searchbtn{
+    background: rgb(200, 211, 216);
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+.cardX{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h3{
+    color: black;
+    margin: 0;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 5px;
+    border-radius: 10px;
+    background-color: rgba(191, 215, 219, 0.342);
+}
+a:hover{
+    opacity: 0.6;
+}
