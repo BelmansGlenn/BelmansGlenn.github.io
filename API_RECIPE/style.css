@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.title{
+    background-color: rgb(199, 62, 69);
+    text-align: center;
+    padding: 30px;
+    font-size: 3rem;
+    color: white;
+}
+.searchCard{
+    text-align: center;
+    line-height: 50px;
+    margin: 30px 0px;
+    font-size: 1.2rem;
+}
+.inputSearch{
+    font-size: 1.2rem;
+    border: 2px solid rgb(199, 62, 69);
+    border-radius: 5px;
+    padding: 1px;
+}
+
+.searchbtn{
+    background-color: rgb(199, 62, 69);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 3px 6px;
+    color: white;
+}
+.searchbtn:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+main{
+    height: 100vh;
+    background-color: whitesmoke;
+    position: relative;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    background-color: whitesmoke;
+    padding-top: 60px;
+    padding-bottom: 40px;
+   
+}
+.card{
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(80, 78, 78);
+    border-radius: 5px;
+    margin: 10px 10px  30px 20px;
+}
+.img{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    
+}
+.bottomCard{
+    width: 300px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mealTitle{
+    color: black;
+    font-size: 1.5rem;
+    padding: 10px 0 ;
+}
+.recipebtn{
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(199, 62, 69);
+    width: fit-content;
+    padding: 5px 25px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 5px rgb(80, 78, 78);
+    margin: 10px 0px 20px 0px;
+}
+.recipebtn:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.details{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(199, 62, 69);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 20px;
+}
+.abso{
+    border-radius: 20px;
+}
+.recipeText{
+    margin: 20px;
+    text-align: center;
+    overflow-y: scroll;
+}
+
+.quit{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 8px;
+    font-size: 1.2rem;
+    background-color: white;
+    color: black;
+    border: none;
+    border-top-right-radius: 5px;
+}
+.quit:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.remove{
+    z-index: -1;
+}
